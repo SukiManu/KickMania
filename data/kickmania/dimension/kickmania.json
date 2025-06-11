@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:overworld",
+	"generator": {
+		"type": "minecraft:flat",
+		"settings": {
+			"biome": "minecraft:lukewarm_ocean",
+			"lakes": false,
+			"features": false,
+			"structure_overrides":[],
+			"layers": [
+				{
+					"height": 1,
+					"block": "minecraft:bedrock"
+				},
+				{
+					"height": 2,
+					"block": "sand"
+				},
+				{
+					"block": "water",
+					"height": 1
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,3 @@
+$execute in kickmania:kickmania store result score $result temp run forceload add $(fx0) $(fz0) $(fx1) $(fz1)
+$execute if score $result temp matches 1.. run tellraw @a[tag=is_admin] [{"text":"Finished loading chunks from $(fx0) $(fz0) $(fx1) $(fz1)! Count: ","color":"green"},{"score":{"name":"$result","objective": "temp"}}]
+$execute if score $result temp matches ..0 run tellraw @a[tag=is_admin] [{"text":"Failed to load chunks from $(fx0) $(fz0) $(fx1) $(fz1)!","color":"red"}]

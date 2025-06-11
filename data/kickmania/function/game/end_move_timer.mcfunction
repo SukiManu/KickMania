@@ -1,0 +1,1 @@
+function kickmania:game/schedule/end_turn

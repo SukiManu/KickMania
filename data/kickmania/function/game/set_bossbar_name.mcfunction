@@ -1,0 +1,1 @@
+$bossbar set kickmania:current_fighter name {"text":"$(name)","color":"$(color)"}

@@ -1,0 +1,1 @@
+$data modify entity f7ec4a00-58d6-42f8-bf45-ef71763a05a2 CustomName set value '$(book_contents)'

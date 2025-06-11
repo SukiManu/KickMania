@@ -1,0 +1,1 @@
+$execute store result storage snbt:data random.map int 1.0 run random value 0..$(length)

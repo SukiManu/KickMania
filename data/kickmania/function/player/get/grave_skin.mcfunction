@@ -1,0 +1,2 @@
+$execute store result score $grave_skin temp run data get storage kickmania player_list[{id:$(id)}].grave_model
+execute if score $grave_skin temp matches 0 run scoreboard players set $grave_skin temp 20000

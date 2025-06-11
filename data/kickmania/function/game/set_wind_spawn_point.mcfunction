@@ -1,0 +1,1 @@
+$spawnpoint @a[tag=alive] $(x) 70 $(z)

@@ -1,0 +1,2 @@
+$execute positioned $(x) $(y) $(z) store success score $success temp run fill ~-1 ~ ~-1 ~ ~ ~ air replace deepslate_brick_slab
+$execute if score $success temp matches 0 run return run tellraw @a[tag=is_admin] {"text":"Failed to remove platform at $(x) $(y) $(z).\nThem either have been removed by map pasting or you have to manually remove it.","color":"red","clickEvent": {"action": "run_command","value": "/execute in kickmania:kickmania run tp @s $(x) $(y) $(z)"},"hoverEvent": {"action":"show_text","contents":"/tp $(x) $(y) $(z)"}}

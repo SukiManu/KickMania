@@ -1,0 +1,1 @@
+$data modify storage snbt:data current_map set from storage snbt:data maps[$(map)]

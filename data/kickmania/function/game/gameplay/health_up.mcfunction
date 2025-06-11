@@ -1,0 +1,2 @@
+execute if score $health kickmania.global matches ..500 run scoreboard players add $health kickmania.global 5
+data modify entity 5-0-0-0-12 text set value '[{"text":"Health\\n","color":"white","bold":true},{"score":{"name": "$health","objective": "kickmania.global"},"color":"green"},{"text":"HP"}]'

@@ -1,0 +1,1 @@
+$summon item ~ ~ ~ {Item:$(item),PickupDelay:0,Tags:["new"]}

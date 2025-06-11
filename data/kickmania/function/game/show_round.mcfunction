@@ -1,0 +1,1 @@
+$scoreboard players display numberformat $round data fixed "$(value)"

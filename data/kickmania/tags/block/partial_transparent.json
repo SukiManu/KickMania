@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:walls",
+    "#minecraft:fence_gates",
+    "#minecraft:fences",
+    "minecraft:fern",
+    "minecraft:large_fern",
+    "minecraft:short_grass",
+    "minecraft:tall_grass",
+    "#minecraft:flower_pots",
+    "#minecraft:flowers",
+    "#minecraft:all_hanging_signs",
+    "#minecraft:all_signs",
+    "#minecraft:candles",
+    "minecraft:bamboo",
+    "#minecraft:crops",
+    "minecraft:air",
+    "minecraft:cave_air",
+    "minecraft:void_air",
+    "#minecraft:stairs"
+    
+  ]
+}

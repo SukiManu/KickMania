@@ -1,0 +1,20 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"player": {
+					"nbt": "{Tags:[\"can_use_item\"]}"
+				},
+				"item": {
+					"items": [
+						"minecraft:heart_of_the_sea"
+					]
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "kickmania:player/right_click"
+	}
+}

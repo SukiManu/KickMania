@@ -1,0 +1,186 @@
+{
+  "type": "minecraft:empty",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:heart_of_the_sea",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "\"Jetpack\"",
+                "minecraft:item_model":"kickmania:jetpack",
+                "minecraft:food":{
+                  "nutrition":0,"saturation":0,"can_always_eat":true
+                },
+                "minecraft:consumable":{"consume_seconds":99999},
+                "minecraft:custom_data": {
+                  "jetpack": true,
+                  "id": 0
+                }
+              }
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:heart_of_the_sea",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "\"Dynamite\"",
+                "minecraft:item_model":"kickmania:dynamite",
+                "minecraft:food":{
+                  "nutrition":0,"saturation":0,"can_always_eat":true
+                },
+                "minecraft:consumable":{"consume_seconds":99999},
+                "minecraft:custom_data": {
+                  "dynamite": true,
+                  "id": 0
+                }
+              }
+            }
+          ],
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:heart_of_the_sea",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "\"Banana\"",
+                "minecraft:item_model":"kickmania:banana",
+                "minecraft:food":{
+                  "nutrition":0,"saturation":0,"can_always_eat":true
+                },
+                "minecraft:consumable":{"consume_seconds":99999},
+                "minecraft:custom_data": {
+                  "banana": true,
+                  "id": 0
+                }
+              }
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:heart_of_the_sea",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "\"Boomstick\"",
+                "minecraft:item_model":"kickmania:boomstick",
+                "minecraft:food":{
+                  "nutrition":0,"saturation":0,"can_always_eat":true
+                },
+                "minecraft:consumable":{"consume_seconds":99999},
+                "minecraft:custom_data": {
+                  "boomstick": true,
+                  "id": 0
+                }
+              }
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:heart_of_the_sea",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "\"Grenade\"",
+                "minecraft:item_model":"kickmania:grenade",
+                "minecraft:food":{
+                  "nutrition":0,"saturation":0,"can_always_eat":true
+                },
+                "minecraft:consumable":{"consume_seconds":99999},
+                "minecraft:custom_data": {
+                  "grenade": true,
+                  "id": 1
+                }
+              }
+            }
+          ],
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:heart_of_the_sea",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "\"Holy Grenade\"",
+                "minecraft:item_model":"kickmania:holy_grenade",
+                "minecraft:food":{
+                  "nutrition":0,"saturation":0,"can_always_eat":true
+                },
+                "minecraft:consumable":{"consume_seconds":99999},
+                "minecraft:custom_data": {
+                  "hallelujah": true,
+                  "id": 0
+                }
+              }
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:heart_of_the_sea",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "\"Air Strike\"",
+                "minecraft:item_model":"kickmania:airplane",
+                "minecraft:food":{
+                  "nutrition":0,"saturation":0,"can_always_eat":true
+                },
+                "minecraft:consumable":{"consume_seconds":99999},
+                "minecraft:custom_data": {
+                  "airplane": true,
+                  "id": 0
+                }
+              }
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:heart_of_the_sea",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "\"Fusion Laser\"",
+                "minecraft:item_model":"kickmania:fusion_laser",
+                "minecraft:food":{
+                  "nutrition":0,"saturation":0,"can_always_eat":true
+                },
+                "minecraft:consumable":{"consume_seconds":99999},
+                "minecraft:custom_data": {
+                  "fusion_laser": true,
+                  "id": 0
+                }
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

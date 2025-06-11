@@ -1,0 +1,1 @@
+function kickmania:items/platform/clear/pass_thru

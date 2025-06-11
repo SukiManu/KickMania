@@ -1,0 +1,9 @@
+clear @s
+give @s heart_of_the_sea[item_model="kickmania:bazooka",food={nutrition:0,saturation:0,can_always_eat:true},consumable={consume_seconds:99999,animation:"none"},custom_data={bazooka:true},item_name='{"text":"Right Click To Charge Bazooka","color":"gold","bold":true}'] 1
+give @s heart_of_the_sea[item_model="kickmania:dynamite",food={nutrition:0,saturation:0,can_always_eat:true},consumable={consume_seconds:99999,animation:"none"},custom_data={dynamite:true},item_name='{"text":"Right Click To Place Dynamite","color":"red","bold":true}'] 1
+#give @s heart_of_the_sea[food={nutrition:0,saturation:0,can_always_eat:true,eat_seconds:99999},custom_data={banana:true},item_name='{"text":"Right Click To Charge Banana Bomb","color":"gold","bold":true}'] 1
+#give @s heart_of_the_sea[food={nutrition:0,saturation:0,can_always_eat:true,eat_seconds:99999},custom_data={jetpack:true},item_name='{"text":"Right Click To Use Jetpack","color":"gold","bold":true}'] 1
+#give @s heart_of_the_sea[food={nutrition:0,saturation:0,can_always_eat:true,eat_seconds:99999},custom_data={boomstick:true},item_name='{"text":"Right Click To use boomstick","color":"gold","bold":true}'] 1
+give @s heart_of_the_sea[item_model="kickmania:aerial_strike",food={nutrition:0,saturation:0,can_always_eat:true},consumable={consume_seconds:99999,animation:"none"},custom_data={airplane:true},item_name='{"text":"Right Click To Call an Aerial Strike","color":"gold","bold":true}'] 1
+give @s heart_of_the_sea[item_model="kickmania:holy_grenade",food={nutrition:0,saturation:0,can_always_eat:true},consumable={consume_seconds:99999,animation:"none"},custom_data={hallelujah:true},item_name='{"text":"Right Click To Charge Hallelujah Grenade","color":"gold","bold":true}'] 1
+#give @s heart_of_the_sea[food={nutrition:0,saturation:0,can_always_eat:true,eat_seconds:99999},custom_data={posion_gas:true},item_name='{"text":"Right Click To Charge Throw A Poisinous Gas","color":"gold","bold":true}'] 1

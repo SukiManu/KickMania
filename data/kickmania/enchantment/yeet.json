@@ -1,0 +1,65 @@
+{
+    "description": "",
+    "supported_items": "minecraft:stick",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "max_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "anvil_cost": 0,
+    "slots": ["mainhand"],
+    "effects": {
+      "minecraft:post_attack": [
+        {
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "kickmania:items/yeet/use"
+          },
+          "enchanted": "attacker",
+          "affected": "attacker"
+        },
+        {
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "kickmania:items/yeet/deal_damage"
+          },
+          "enchanted": "attacker",
+          "affected": "victim"
+        },
+        {
+          "effect": {
+            "type": "minecraft:spawn_particles",
+            "particle": {
+              "type": "minecraft:spit"
+            },
+            "horizontal_position": {
+              "type": "entity_position",
+              "offset": 0,
+              "scale": 1
+            },
+            "vertical_position": {
+              "type": "entity_position",
+              "offset": 1,
+              "scale": 1
+            },
+            "horizontal_velocity": {
+              "base": 1,
+              "movement_scale": 0
+            },
+            "vertical_velocity": {
+              "base": 1,
+              "movement_scale": 0
+            },
+            "speed": 0.01
+          },
+          "enchanted": "attacker",
+          "affected": "attacker"
+        }
+      ]
+    }
+  }

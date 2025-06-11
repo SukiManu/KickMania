@@ -1,0 +1,12 @@
+setblock 0 299 0 bedrock
+setblock 0 300 0 white_carpet
+setblock 0 301 0 air
+setblock 1 300 0 bedrock
+setblock 1 301 0 bedrock
+setblock -1 300 0 bedrock
+setblock -1 301 0 bedrock
+setblock 0 300 1 bedrock
+setblock 0 301 1 bedrock
+setblock 0 300 -1 bedrock
+setblock 0 301 -1 bedrock
+setblock 0 302 0 bedrock

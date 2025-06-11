@@ -1,0 +1,70 @@
+{
+	"description": {
+		"text": "Posion Plume",
+		"color": "#1aa866",
+		"shadow_color": 12157827,
+		"bold": true
+	},
+	"supported_items": "minecraft:bow",
+	"primary_items": "minecraft:bow",
+	"weight": 1,
+	"max_level": 1,
+	"min_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"max_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"anvil_cost": 0,
+	"slots": [
+		"mainhand"
+	],
+	"effects": {
+		"minecraft:hit_block": [
+			{
+				"requirements": {
+					"condition": "minecraft:location_check",
+					"predicate": {
+						"dimension": "kickmania:kickmania"
+					}
+				},
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "kickmania:items/poison_bow/explode"
+				}
+			}
+		],
+		"minecraft:post_attack": [
+			{
+				"requirements": {
+					"condition": "minecraft:location_check",
+					"predicate": {
+						"dimension": "kickmania:kickmania"
+					}
+				},
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "kickmania:items/poison_bow/explode"
+				},
+				"enchanted": "attacker",
+				"affected": "victim"
+			}
+		],
+		"minecraft:projectile_spawned": [
+			{
+				"requirements": {
+					"condition": "minecraft:location_check",
+					"predicate": {
+						"dimension": "kickmania:kickmania"
+					}
+				},
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "kickmania:items/poison_bow/shoot"
+				}
+			}
+		]
+	}
+}

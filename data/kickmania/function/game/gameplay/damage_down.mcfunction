@@ -1,0 +1,2 @@
+execute if score $damage_multiplier kickmania.global matches 25.. run scoreboard players remove $damage_multiplier kickmania.global 5
+data modify entity 5-0-0-0-9 text set value '[{"text":"Damage\\n","color":"white","bold":true},{"score":{"name": "$damage_multiplier","objective": "kickmania.global"},"color":"green"},{"text":"%"}]'

@@ -1,0 +1,2 @@
+$execute store success score $success temp run data remove storage kickmania player_list[{name:$(id)}]
+execute if score $success temp matches 1 run tellraw @a[tag=admin] [{"text":"Found duplicate user with name: "},{"selector": "@s"}]
